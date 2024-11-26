@@ -2,8 +2,8 @@
   <div class="flex flex-col p-10">
 
     <button
-      class="px-4 py-2 border border-black w-48 mx-auto bg-white hover:shadow-2xl hover:bg-gray-300 transition-all duration-100 opacity-100"
-      type="button" @click="showModal = true" :class="{'opacity-0':showModal}">Открыть</button>
+      class="px-4 py-2 border border-black w-48 mx-auto bg-white hover:shadow-2xl hover:bg-gray-300 transition-all duration-100 "
+      type="button" @click="showModal = true">Открыть</button>
 
 
     <Modal :title="modalTitle" :visible="showModal" @close="showModal = false" @confirm="handleConfirm">
